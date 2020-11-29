@@ -6,14 +6,22 @@ import static org.junit.Assert.*;
 import org.junit.*;
 
 public class SimpleCalculatorTest {
+
 	@Test
 	public void testAdd() {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(calc.add(1, 1), 2);
 	}
+
 	@Test
 	public void testMinus() {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(calc.minus(5, 2), 0);
+	}
+
+	@Test
+	public void testMultiply() {
+		SimpleCalculator calc = new SimpleCalculator();
+		assertEquals(calc.multiply(3, 2), 0);
 	}
 }
