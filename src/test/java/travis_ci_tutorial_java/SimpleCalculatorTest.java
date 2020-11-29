@@ -22,6 +22,6 @@ public class SimpleCalculatorTest {
 	@Test
 	public void testMultiply() {
 		SimpleCalculator calc = new SimpleCalculator();
-		assertEquals(calc.multiply(3, 2), 0);
+		assertEquals(calc.multiply(3, 2), 6);
 	}
 }
