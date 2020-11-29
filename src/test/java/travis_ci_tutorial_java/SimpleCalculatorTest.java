@@ -30,7 +30,4 @@ public class SimpleCalculatorTest {
 		SimpleCalculator calc = new SimpleCalculator();
 		assertEquals(calc.divide(6, 2), 3);
 	}
-
-	//test comment becauae for some reason intelliJ won't let me commit and push so that
-	//a change on the repository can happen and Travis CI can do its thing
 }
